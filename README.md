@@ -1,11 +1,12 @@
-# Little Lab — Version 2
+# Little Lab V3 — Mosslight Island
 
-A cozy, self-contained browser research game. Includes the original three investigations, island walking (tap/click grass), collectible specimens, a decorated laboratory interior, and three interactive research simulations with trial recording and simple bar charts.
+A self-contained, illustrated cozy science game. All scenery, characters, laboratory equipment, trees, flowers and furniture are drawn with the HTML Canvas API — no emojis, no image dependencies, no paid libraries.
 
-## Play
-Open `index.html` in a browser, or upload it to a GitHub repository and enable **Settings → Pages → Deploy from branch → main / root**.
+## Play locally
+Open `index.html` in a browser.
 
-No external libraries, build steps, or server required. Progress saves locally in the browser.
+## GitHub Pages
+Upload `index.html` to your GitHub repository's root, then enable Settings → Pages → Deploy from a branch → main / (root). No build step needed.
 
-## Note
-All datasets and simulations are fictional teaching models, not scientific measurements.
+## Notes
+Tap the pond, forest, garden, cottage and lab furniture to interact. Research and furnishings save in localStorage. Data are fictional teaching examples. The optional Google font falls back to system fonts offline.
